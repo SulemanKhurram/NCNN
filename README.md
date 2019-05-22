@@ -1,4 +1,4 @@
-############ Prerequisites ######################
+############ Prerequisites ######################\newline
 Ran and tested on follwing setup
 - Python 3.6
 - pytorch 0.4.1
@@ -8,7 +8,7 @@ Ran and tested on follwing setup
 - numpy 1.14.2
 - cudnn 7.1.2
 
-############ Instructions #######################
+############ Instructions #######################\newline
 
 Following are some of the files that can be run for comparison of three approaches.
 
@@ -39,7 +39,7 @@ Following parameters in config file are for visualization generation purposes.
 - viz_filter 
 - viz_layers 
 
-#################### Training, Testing and Evaluation ###############
+#################### Training, Testing and Evaluation ###############\newline
 
 After activating the desired environment with required packages. Train each approach using above mentioned files. For example
 
@@ -47,7 +47,7 @@ export CUDA_VISIBLE_DEVICES=1
 python main_nonBayes.py
 
 
-#################### Visualization (in testing) ###############
+#################### Visualization (in testing) ###############\newline
 
 You will need a trained checkpoint to visualize CAM and features of layers and analysis and then after setting up required visualization parameters in config file. 
 you can run following file.
